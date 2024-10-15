@@ -42,5 +42,15 @@ public class PriceItem {
         System.out.println("Maximum price: " + maxPrice);
         System.out.println("Minimum price: " + minPrice);
         
+        //  Get the item with the highest price
+        int maxIndex = 0;
+        for (int i = 1; i < price.length; i++) {
+            if (price[i] > price[maxIndex]) {
+                maxIndex = i;
+            }
+        }
+        System.out.println("Item with the highest price: " + item[maxIndex]);
+    
+        
     }
 }
