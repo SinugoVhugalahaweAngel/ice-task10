@@ -15,5 +15,12 @@ public class PriceItem {
         int[] price = {200, 350, 700, 400};
         String[] item = {"Shirt", "Pants", "Sneakers", "Jacket"};
         
+         //  Calculate the sum of all the elements in price
+        int sum = 0;
+        for (int i = 0; i < price.length; i++) {
+            sum += price[i];
+        }
+        System.out.println("Total sum of prices: " + sum);
+        
     }
 }
