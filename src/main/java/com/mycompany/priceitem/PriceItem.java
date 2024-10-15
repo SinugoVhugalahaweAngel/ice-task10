@@ -22,5 +22,8 @@ public class PriceItem {
         }
         System.out.println("Total sum of prices: " + sum);
         
+        // Calculate the average of the elements in price array
+        double average = sum / (double) price.length;
+        System.out.println("Average price: " + average);
     }
 }
